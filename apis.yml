@@ -1,4 +1,16 @@
 aid: pixel-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pixel-technologies.png
 name: Pixel Technologies
 description: Pixel Technologies is a company surfaced as a portfolio company of lightspeed-venture-partners
   and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
@@ -12,12 +24,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+x-enrichment-note: 'Enrichment pass 2026-07-20 found no resolvable API surface. "Pixel
+  Technologies" does not appear in the Lightspeed Venture Partners portfolio; the only
+  real-name match (pixel.tech, Cincinnati) is an audio-visual / structured-cabling
+  systems integrator with no developer API, SDKs, or portal. Treated as an unresolved
+  VC-portfolio stub lead — no artifacts fabricated.'
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
